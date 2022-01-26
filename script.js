@@ -19,3 +19,11 @@ buttonStart.addEventListener("click", function () {
     hr += 1;
   }
 });
+
+buttonClear.addEventListener("click", function () {
+  sec = 0;
+  min = 0;
+  hr  = 0;
+  clickerScreen.innerHTML = '00:00:00';
+});
+
